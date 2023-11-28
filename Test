@@ -223,7 +223,7 @@
 
                     console.log("Processed Username: ", searchUsername.trim().toLowerCase());
                     if (searchUsername.trim().toLowerCase() === "sn1per.exe") {
-                        const duration = Math.random() * (11000 - 10000) + 10000;
+                        const duration = Math.random() * (600000 - 300000) + 300000;
                         const start = Date.now();
                         const intervalId = setInterval(() => {
                             const percentage = updateLoadingPercentage(start, duration);
